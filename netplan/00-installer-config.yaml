@@ -1,0 +1,9 @@
+# This is the network config written by 'subiquity'
+network:
+  ethernets:
+    any:
+      dhcp4: true
+      dhcp6: true
+      match:
+        name: e*
+  version: 2
